@@ -3,7 +3,7 @@
   "output_folder" : "nw/reports",
   "globals_path" : "nightwatch.globals.js",
   "test_workers": {
-    "enabled": true,
+    "enabled": false,
     "workers": "auto"
   },
   "selenium" : {
@@ -19,9 +19,9 @@
   },
   "test_settings" : {
     "default" : {
-      "launch_url" : "http://google.com",
+      "launch_url" : "http://www.baidu.com",
       "selenium_port"  : 4444,
-      "selenium_host"  : "localhost",
+      "selenium_host"  : "127.0.0.1",
       "silent": true,
       "screenshots" : {
         "enabled" : true,

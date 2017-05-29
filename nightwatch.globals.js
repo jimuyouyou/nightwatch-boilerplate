@@ -1,11 +1,11 @@
 module.exports = {
     'default': { // 'default' environnement parameters
         searchTerm : 'nightwatch',
-        movieName : 'Night Watch'
+        // movieName : 'Night Watch'
     },
     'french': { // 'french' environnement parameters
         searchTerm : 'dikkenek',
-        movieName : 'dikkenek'
+        // movieName : 'dikkenek'
     },
 
     // Abord all on test fail
